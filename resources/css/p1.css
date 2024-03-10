@@ -1,0 +1,375 @@
+.background{
+    background-image: url('background.jpeg');
+    display: flex;
+    width: 300px;
+    height:300px;
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.mynav{
+    
+   
+
+}
+.myheader{
+
+}
+.titel{
+    text-align: center;
+    font-size: 60px;
+    color : #F5F5DC;
+    padding-right: 200px;
+    
+}
+.box{
+    border: 1px solid #d6d6d6;
+    padding: 30px;
+    width: 200px;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.position{
+position: relative;
+left: 250px;
+top: 420px
+}
+
+.label {
+    display: block; 
+    margin-bottom: 8px; 
+    font-weight: bold; 
+    color: #333; 
+  }
+  .input[type="text"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .login{
+    font-size: 28px;
+    text-align: center;
+    color : #F5F5DC;
+    font-family:;
+  }
+  .button{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #D2691E;
+    color: #fff;
+    border-radius: 5px;
+  }
+ .password{
+  background-clip: padding-box;
+ }
+ .forgetpassword{
+  color: #ccc;
+  font-size: small;
+ }
+ .inscri{
+ color: #ccc;
+
+
+ }
+ .register{
+  color: #D2691E;
+ }
+ .backgroundinscri{
+  background-image: url('backgroundinscri.jpeg');
+    display: flex;
+    width: 300px;
+    height:300px;
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+ }
+ .board {
+  height: 500px;
+  width: 500px;
+  max-width: 1000px;
+  background-color: #ffffff;
+  border-radius: 0;
+  margin: 2rem auto;
+  position: relative;
+  z-index: 2;
+
+}
+.bodyinscri {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+  position: relative;
+  left: 600px;
+}
+.titelinscri{
+  font-style: normal;
+  color: #D2691E;
+}
+.form-container {
+  text-align: center;
+  padding: 15px; 
+}
+
+
+label {
+  font-size: 1em; 
+  display: block; 
+  margin-bottom: 1px; 
+}
+
+
+input[type="date"] {
+  padding: 1px; 
+  font-size: 1.55em; 
+}
+ 
+select {
+  padding: 4px; 
+  font-size: 1em; 
+  width: 170px;
+
+}
+.buttoninscri{
+  width: 80px;
+  height: 30px;
+  font-size: 16px;
+  background-color: #8c8987;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.divbar{
+  display: flex;
+  font-size: 15px;
+  height: 80px;
+  margin: initial;
+ 
+  
+  
+
+}
+*{
+  transition: .2s linear;
+}
+.choixbar{
+color: rgb(255, 255, 255);
+background-color: rgb(31, 31, 44);
+font-size:14px;
+text-align: center;
+padding: 6px;
+cursor: pointer;
+
+
+}
+.myselect{
+  
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 25px;
+  
+
+}
+.myselect-content{
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding: 15px;
+  margin: 20px;
+  height: 1px;
+  
+
+}
+.myselect-content option{
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+.myselect:hover .myselect-content {
+  display: block;
+}
+.backgroundgame{
+  background-image: url('game.png');
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+   
+    
+ }
+ 
+ .bodygame {
+  
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  min-height: 500px;
+  position: relative;
+  left: 600px;
+  border: 1px solid #d6d6d6;
+  padding: 15px;
+  padding-top: 50px;
+  margin-top: 100px;
+  
+}
+.gameselect{
+  aspect-ratio: 1;
+  grid-area: ip0;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px 0 #0000003d;
+  color: aliceblue ;
+  text-align: center;
+  font-size:medium;
+
+}
+.buttomgame {
+  background-color:transparent ;
+  height: 50px;
+  width: 300px;
+  margin: 8px;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px 0 #0000003d;
+  transition: transform .6s var(--bezier);
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+
+.stofbuttomgame{
+  color:aliceblue ;
+  text-align: center;
+  font-size:medium; 
+  font-family:'Courier New', Courier, monospace;
+  text-decoration: none;
+}
+
+ .aboutgame{
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  min-height: 500px;
+  position: relative;
+  left: 600px;
+  border: 1px solid #d6d6d6;
+  padding: 15px;
+  padding-top: 50px;
+  margin-top: 100px;
+
+ }
+
+.backgamefirstpage{
+  background-image: url("game.png");
+  display: flex;
+  background-position: center center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-left: 20px;
+  padding-top: 20px; 
+  padding-bottom: 20px;
+  padding-right: 20px;
+  flex-direction: column;
+}
+.div1{
+  background-color: #ccc;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin: 10px;
+  
+}
+.div3{
+  background-color:#ccc;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin: 10px;
+}
+.div4{
+  background-color:#ccc;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin: 10px;
+}
+.div5{
+  background-color:#ccc;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin: 10px;
+}
+.div6{
+  background-color: #ccc;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin: 10px;
+}
+.div7{
+  background-color: #ccc;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin: 10px;
+}
+.div8{
+  background-color: #ccc;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin: 10px;
+}
+.div9{
+  background-color: #ccc;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin: 10px;
+}
+.div11{
+  background-color: #ccc;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin: 10px;
+}
+.div12{
+  background-color: #ccc;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin: 10px;
+}
+.stylepic{
+  height: 250px;
+  width: 230px;
+}
+.level{
+font-family:cursive;
+  color: aliceblue;
+  font-size:x-large;
+  padding-left: 90px;
+  padding-right: 103px;
+ margin: 1px;
+  
+}
+.piclevel{
+  cursor: pointer;
+}
